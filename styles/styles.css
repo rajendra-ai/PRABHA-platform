@@ -1,0 +1,245 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+header .auth-buttons .btn {
+  background: #FFC107;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero {
+  background: #f4f4f4;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  background: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.features {
+  padding: 20px;
+  text-align: center;
+}
+
+.features .feature {
+  margin: 20px 0;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #FFC107;
+  text-decoration: none;
+}
+
+/* Dashboard Styles */
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard .progress {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.dashboard .actions .btn {
+  background: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.dashboard .notifications {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Diagnostic Test Styles */
+.diagnostic-test {
+  padding: 20px;
+}
+
+.diagnostic-test .question {
+  margin-bottom: 20px;
+}
+
+.diagnostic-test .progress {
+  margin-top: 20px;
+}
+
+.diagnostic-test .btn {
+  background: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Study Plan Styles */
+.study-plan {
+  padding: 20px;
+}
+
+.study-plan .schedule {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.study-plan .progress {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.study-plan .btn {
+  background: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Focus Mode Styles */
+.focus-mode {
+  padding: 20px;
+}
+
+.focus-mode .timer {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.focus-mode .blocked-apps {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.focus-mode .btn {
+  background: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.focus-mode .notification {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Mental Health Styles */
+.mental-health {
+  padding: 20px;
+}
+
+.mental-health .meditation {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.mental-health .stress-management {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.mental-health .mood-tracker {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Parental Dashboard Styles */
+.parental-dashboard {
+  padding: 20px;
+}
+
+.parental-dashboard .progress-report {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.parental-dashboard .screen-time {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.parental-dashboard .notifications {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
